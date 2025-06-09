@@ -1,0 +1,455 @@
+.bg-container {
+background-image: url("https://img.freepik.com/free-photo/vintage-barber-paper-jobs-career-concept_53876-127077.jpg?ga=GA1.1.345767075.1739020818&semt=ais_hybrid");
+width: 100vw;
+height: 100vh;
+background-size: cover;
+padding:20px;
+}
+.nav-home {
+font-size: 26px;
+font-weight: bold;
+}
+.nav-head {
+margin-left: 70px;
+}
+.title-headig {
+font-family:"roboto";
+font-style: oblique;
+color:white;
+font-size: 36px;
+font-weight: 700;
+padding: 5px;
+text-align: center;
+text-decoration-line: unline;
+}
+.heading-style{
+margin-left: 60%;
+}
+.nav-button {
+background-color: rgb(228, 190, 238);
+font-size: 24px;
+color:black ;
+font-family: "roboto";
+border-radius: 6px;
+cursor: pointer;
+}
+.nav-button:hover{
+background-color: #f54290;
+}
+.nav-light{
+color: #850b85;
+font-size: 36px;
+font-weight: 700;
+text-decoration:underline;
+}
+.heading-light {
+color:#f54290 ;
+text-align: center;
+margin-left: 20px;
+}
+.title-para {
+font-family:"roboto";
+font-style: oblique;
+color:whitesmoke;
+font-size: 22px;
+font-weight: 300;
+padding: 5px;
+text-align: center;
+}
+.home-button {
+background-color: black;
+font-size: 24px;
+color:#f54290 ;
+font-family: "roboto";
+border-radius: 6px;
+cursor: pointer;
+margin-right: 20px;
+margin-left:30px ;
+}
+.style-button{
+background-color: black;
+font-size: 24px;
+color:#f54290 ;
+font-family: "roboto";
+border-radius: 6px;
+cursor: pointer;
+}
+.adust-button {
+margin-left:60%;
+display: flex;
+flex-wrap: wrap;
+text-align: center;
+}
+.button:hover {
+background-color: #8231de;
+}
+.card-container{
+background-image:url("https://img.freepik.com/premium-photo/hairdresser-salon-equipment-concept-premium-hairdressing-shears-accessories-haircut-men-beauty-health-concept_486333-6203.jpg?ga=GA1.1.345767075.1739020818&semt=ais_hybrid");
+height: auto;
+width: 100vw;
+background-size: cover;
+margin-top: 10px;
+}
+.fashion-heading {
+font-family: "roboto";
+font-style: italic;
+font-size: 36px;
+color:rgba(211, 140, 10, 0.89);
+font-weight: 800;
+margin-top:10px ;
+text-align: center;
+text-decoration: underline;
+}
+.card {
+height: 200px;
+width: 150px;
+padding: 5px;
+justify-content: space-around;
+box-shadow:none;
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: #8231de;
+border-radius: 8px;
+}
+.card-image {
+height: 150px;
+width: 150px;
+padding: 5px;
+}
+.fashion-para {
+font-family: "roboto";
+font-style:oblique;
+font-weight: bold;
+font-size: 18px;
+color:rgba(211, 140, 10, 0.89);
+font-weight: 900;
+text-align: center;
+margin-left: 20px;
+}
+.fashion-para-girl {
+font-family: "roboto";
+font-style:oblique;
+font-weight: bold;
+font-size: 18px;
+color:black;
+font-weight: 900;
+text-align: center;
+margin-left: 20px;
+}
+.card-button {
+background-color:#850b85;
+color: beige;
+font-size: 14px;
+font-weight: bold;
+border-radius: 8px;
+cursor: pointer;
+text-align: center;
+padding: 5px;
+margin-left: 30px;
+}
+/* .row {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}*/
+.card-girl-container {
+background-image:url("https://img.freepik.com/free-photo/combs-makeup-supplies_23-2147783975.jpg?t=st=1742287907~exp=1742291507~hmac=e078d09fe3d6ea3f1502cd6fe6720afb8227fae1b837c41cb08c268e2a323aa4&w=900");
+height: auto;
+width: 100vw;
+background-size: cover;
+margin-top: 10px;
+}
+.fashion-heading-girl{
+font-family: "roboto";
+font-style: italic;
+font-size: 36px;
+color:black;
+font-weight: 800;
+margin-top:10px ;
+text-align: center;
+text-decoration: underline;
+}
+.card-girl {
+height: 200px;
+width: 150px;
+padding: 5px;
+justify-content: space-around;
+box-shadow:none;
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: #f54290;
+border-radius: 8px;
+}
+.card-image {
+height: 150px;
+width: 150px;
+padding: 5px;
+}
+.fashion-para-girl {
+font-family: "roboto";
+font-style:oblique;
+font-weight: bold;
+font-size: 18px;
+font-weight: 900;
+text-align: center;
+margin-left: 20px;
+}
+.fashion-style{
+color: black;
+}
+.card-button {
+background-color:#850b85;
+color: beige;
+font-size: 14px;
+font-weight: bold;
+border-radius: 8px;
+cursor: pointer;
+text-align: center;
+padding: 5px;
+margin-left: 30px;
+}
+.mens-style-container {
+background-image:repeating-radial-gradient(#b743e8,#f571ec);
+height: auto;
+width: 100vw;
+background-size: cover;
+margin-top: 10px;
+}
+.mens-style-heading {
+font-family: "roboto";
+font-style: italic;
+font-size: 36px;
+color:black;
+font-weight: 800;
+margin-top:10px ;
+text-align: center;
+text-decoration: underline;
+}
+.card-mens-style {
+height: 520px;
+width: 400px;
+padding: 5px;
+box-shadow:0 4px 8px rgba(0,0,0,0.1);
+background:rgba(255,255,255,0.7) ;
+display: flex;
+flex-direction: column;
+align-items: center;
+border-radius: 8px;
+}
+/*
+.row {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+} */
+.card-mens-style-image {
+height:450px;
+width :380px;
+padding:5px ;
+overflow: hidden;
+}
+.card-belt-style {
+height: 250px;
+width: 300px;
+display: flex;
+flex-direction:column ;
+align-items: center;
+box-shadow:0 4px 8px rgba(0,0,0,0.1);
+background:rgba(255,255,255,0.7) ;
+border-radius: 8px;
+}
+.man-belt-style-image {
+height: 160px;
+width: 300px;
+padding-left: 5px;
+padding-right:5px ;
+}
+.mens-collection-heading {
+font-family: "roboto";
+font-style: oblique;
+color: black;
+font-size: 22px;
+font-weight: bold;
+padding-top: 5px;
+}
+.mens-collection-button {
+background-color:#850b85;
+color: beige;
+font-size: 14px;
+font-weight: bold;
+border-radius: 8px;
+cursor: pointer;
+text-align: center;
+padding: 5px;
+margin-top: 2px;
+}
+.womens-style-container {
+background-image:repeating-radial-gradient(#b743e8,#f571ec);
+height: auto;
+width: 100vw;
+background-size: cover;
+margin-top: 10px;
+}
+.womens-style-heading {
+font-family: "roboto";
+font-style: italic;
+font-size: 36px;
+color:black;
+font-weight: 800;
+margin-top:10px ;
+text-align: center;
+text-decoration: underline;
+}
+.card-women-style-image {
+height: 450px;
+width: 350px;
+padding:5px ;
+}
+.detail-container {
+background-image: linear-gradient(to right,pink,#a16e4b);
+background-size: cover;
+height: 1200px;
+width: 100vw;
+}
+.detail-title-headig {
+font-family:"roboto";
+font-style: oblique;
+color:#00094b;
+font-size: 36px;
+font-weight: 700;
+padding: 5px;
+text-align: center;
+text-decoration-line: unline;
+}
+.details-card {
+height: 500px;
+width: 400px;
+border-radius: 8px;
+box-shadow:0 4px 8px rgba(0,0,0,0.1);
+background:rgba(255,255,255,0.7) ;
+display: flex;
+flex-direction: column;
+align-items: center;
+border-radius: 8px;
+}
+.details-card-image {
+height: 500px;
+width: 400px;
+border-radius: 8px;
+}
+.detail-card-paragraph {
+font-family:"roboto";
+font-style: oblique;
+color:#e1eff5;
+font-size: 26px;
+font-weight: bolder;
+padding: 5px;
+text-align: center;
+}
+.email-card{
+height: 200px;
+width: 600px;
+border-radius: 8px;
+box-shadow:0 4px 8px rgba(0,0,0,0.1);
+background:rgba(255,255,255,0.7) ;
+display: flex;
+flex-direction:column;
+align-items: right;
+border-radius: 8px;
+padding: 10px;
+}
+.email-card-paragraph {
+font-family:"roboto";
+font-style: oblique;
+color:black;
+font-size: 22px;
+font-weight: 400;
+padding: 5px;
+text-align: center;
+}
+.email-design{
+border-radius: 8px;
+background-color: rgb(228, 190, 238);
+margin-left: 20px;
+border-color: bisque;
+}
+.email-card-button {
+height: 38px;
+width: 110px;
+background-color:rgb(114, 80, 194);
+color:whitesmoke;
+font-size: 12px;
+font-weight: bold;
+border-radius: 8px;
+cursor: pointer;
+text-align: center;
+padding: 5px;
+margin-top: 2px;
+margin-left: 30%;
+}
+.problem-container {
+background-image:repeating-radial-gradient(#b743e8,#f571ec);
+height: auto;
+width: 100vw;
+background-size: cover;
+}
+.problem-title{
+font-family: "roboto";
+font-style: italic;
+font-size: 36px;
+color:black;
+font-weight: 800;
+margin-top:10px ;
+text-align: center;
+text-decoration: underline;
+}
+.problem-card {
+height: 200px;
+width:150px;
+overflow: hidden;
+background: #e1eff5;
+display: flex;
+align-items:center ;
+justify-content: center;
+padding: 5px;
+}
+.problem-card-image {
+height: auto;
+width: 100%;
+padding: 5px;
+}
+/* .problem-para-container {
+height: 100vh; */
+.problem-alt-container {
+height: 100vh;
+}
+.problem-paragraph{
+font-family: "roboto";
+font-style:oblique;
+font-weight: bold;
+font-size: 18px;
+color:white;
+font-weight: 900;
+text-align: center;
+margin-left:10px ;
+padding: 5px;
+}
+.problem-button {
+background-color:#850b85;
+color: beige;
+font-size: 14px;
+font-weight: bold;
+border-radius: 8px;
+cursor: pointer;
+text-align: center;
+padding: 5px;
+margin-left: 30px;
+}
+.over-container {
+background-image: linear-gradient(to right,pink,#a16e4b);
+background-size: cover;
+height: auto;
+width: 100vw;
+}
